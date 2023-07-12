@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-MEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/logo.svg" alt="">
+
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> selecione um personagem</h1>
+            
+            <ul class="lista-de-personagens">
+            <li class="personagem selecionado
+             " id="ciclope" data-name="ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+                <img src="./src/card-ciclope.jpg" alt="personagem ciclope">
+            </li>
+        
+            <li class="personagem" id="jeangrey" data-name="Jean Grey" data-description="Jean Grey é uma mutante nível ômega e o principal avatr da Força Fênix, no qual manifesta ppoderes cósmicos. A teleparia e telecinese">
+                <img src="./src/card-jean-grey.jpg" alt="personagem JeanGrey">
+            </li>
+            <li class="personagem" id="lincenegra" data-name="Lince Negra" data-description="Ela tem o poder de atravessar matéria sólida, campos de energia, rajada ópticas, conntinuando intacta, e também tem o poder de andar no ar">
+                <img src="./src/card-lince-negra.jpg" alt="personagem LinceNegra">
+            </li>
+            <li class="personagem" id="magneto" data-name="Magneto" data-description="Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos">
+                <img src="./src/card-magneto.jpg" alt="personagem Magneto">
+            </li>
+            <li class="personagem" id="Noturno" data-name="Noturno" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar">
+                <img src="./src/card-noturno.jpg" alt="personagem Noturno">
+            </li>
+            <li class="personagem" id="Tempestade" data-name="Tempestade" data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos">
+                <img src="./src/card-tempestade.jpg" alt="personagem Tempestade">
+            </li>
+            <li class="personagem" id="Vampira" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamnete">
+                <img src="./src/card-vampira.jpg" alt="personagem Vampira">
+            </li>
+            <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Poderes. Garras Metálicas. Fator de Cura Regenarativo, Super Agilidade">
+                <img src="./src/card-wolverine.jpg" alt="personagem wolverine">
+            </li>
+            </ul>
+            </section>
+                 <section class="personagem-selecionado">
+                    <img class="personagem-grande" src="./src/card-ciclope.png" alt="">
+                        <div class="informacoes-personagem">
+                            <h2 class="nome-personagem" id="nome-personagem"></h2>
+                        </div>
+                    <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas por um
+                acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+                </section>
+
+    </main>
+    <script src="./css/js/index.js"></script>
+</body>
+
+</html>
